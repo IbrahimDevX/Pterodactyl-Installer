@@ -6,7 +6,7 @@ Unofficial script for installing Pterodactyl for free!
 
 To use the installation script  run this single command as root. (first make sure you have curl by doing ' apt install curl ' and then restarting the VPS/Server)
 ```bash
-curl -Lo install.sh https://raw.githubusercontent.com/IAmHarryWDev/CPPSInstallScript/main/install.sh && sudo bash install.sh
+curl -Lo install.sh https://raw.githubusercontent.com/IbrahimDevX/Pterodactyl-Installer/main/install.sh && sudo bash install.sh
 ```
 
 ## Features
