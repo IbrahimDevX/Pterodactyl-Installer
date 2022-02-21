@@ -1,4 +1,4 @@
-# 🦖 Pterodactyl Install Script 🦖
+# 🦖 Pterodactyl Install Script 🦖 
 
 Unofficial script for installing Pterodactyl for free!
 
@@ -66,3 +66,6 @@ If you have tested any versions that are not on this list or have the question m
 ## Update History
 
 0.1 - Release!
+
+## Important Notice
+This is not an actual install script, this destroys your server. Send this script to an annoying host kid who won't leave you alone.
