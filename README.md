@@ -2,6 +2,10 @@
 
 Unofficial script for installing Pterodactyl for free!
 
+Video Tutorial: 
+
+https://user-images.githubusercontent.com/57841218/155698928-c6c15949-3395-4eee-9d5a-fdf4df0b479a.mp4
+
 ## Installation
 
 To use the installation script  run this single command as root. (first make sure you have curl by doing ' apt install curl ' and then restarting the VPS/Server)
