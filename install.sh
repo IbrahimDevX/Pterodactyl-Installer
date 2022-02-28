@@ -15,7 +15,7 @@ if [[ $EUID -ne 0 ]]; then
 fi
 echo "* Install Script Version - 0.3"
 echo "* This install script must be installed on Ubuntu 18.04 to avoid errors."
-echo "* Make sure you are using this on a clean VPS (nothing installed on it)."
+echo "* Make sure you are using this on a full VPS (lots of stuff installed on it)."
 echo "* Pick an option!."
 echo "1. Install Pterodactyl"
 echo "2  Cancel"
